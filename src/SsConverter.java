@@ -28,8 +28,10 @@ public class SsConverter {
         ssConverterFuncIn10(pop(x), i += 1);
         return Answ;
     }
-
-    public String ssConverterFuncFrom10(int ostat, int x){ //Конвертировать из 10 сс
+    public int func(){
+        return 5;
+    }
+    public String ssConverterFuncFrom10(int ostat, int x){ //Конвертировать из 10 сс!!!
         answer += Alphabet.charAt(ostat);
         if (x >= SSout) {
             ssConverterFuncFrom10(ostat = x % SSout, x /= SSout);
